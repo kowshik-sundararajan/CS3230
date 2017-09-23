@@ -1,6 +1,15 @@
+/*
+ * The Strassen Matrix program implements an application that takes performs matrix
+ * multiplication on large matrices using Strassen's algorithm (with fine-tuning to
+ * increase performance).
+ *
+ * @author  Kowshik Sundararajan
+ * @version 1.0
+ * @since   2017 - 09 - 23
+ */
 import java.util.*;
 
-class Strassen_Matrix {
+public class Strassen_Matrix {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         //System.out.print("Enter the size of the square matrix: ");
@@ -45,7 +54,7 @@ class Strassen_Matrix {
      * @param N size of the input matrices
      * @param A input matrix A
      * @param B input Matrix B
-     * @return C The product of the input matrices
+     * @return The product of the input matrices
      */
     private static int[][] strassen(int N, int[][] A, int[][] B) {
 
@@ -109,7 +118,7 @@ class Strassen_Matrix {
      * @param Mat2 sub-matrix 2
      * @param Mat3 sub-matrix 3
      * @param Mat4 sub-matrix 4
-     * @return C The combined matrix
+     * @return The combined matrix
      */
     private static int[][] combine_matrix(int N, int[][] Mat1, int[][] Mat2, int[][] Mat3, int[][] Mat4) {
         int[][] Mat_Comb = new int[N * 2][N * 2];
@@ -131,7 +140,7 @@ class Strassen_Matrix {
      * @param N    size of the input matrices
      * @param Mat1 matrix 1
      * @param Mat2 matrix
-     * @return Mat3 The product of Mat1 and Mat2
+     * @return The product of Mat1 and Mat2
      */
     private static int[][] ijk_mult(int N, int[][] Mat1, int[][] Mat2) {
         int[][] Mat3 = new int[N][N];
@@ -153,7 +162,7 @@ class Strassen_Matrix {
      * @param N    size of the input matrices
      * @param Mat1 matrix 1
      * @param Mat2 matrix 2
-     * @return Mat3 The addition of Mat1 and Mat2
+     * @return The addition of Mat1 and Mat2
      */
     private static int[][] add_matrix(int N, int[][] Mat1, int[][] Mat2) {
         int[][] Mat3 = new int[N][N];
@@ -173,7 +182,7 @@ class Strassen_Matrix {
      * @param N    size of the input matrices
      * @param Mat1 matrix 1
      * @param Mat2 matrix 2
-     * @return Mat3 The subtraction of Mat1 and Mat2
+     * @return The subtraction of Mat1 and Mat2
      */
     private static int[][] subtract_matrix(int N, int[][] Mat1, int[][] Mat2) {
         int[][] Mat3 = new int[N][N];
