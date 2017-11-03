@@ -14,7 +14,7 @@ Java SE Development Kit
 
 ## Authors
 
-[**Kowshik Sundararajan**](https://github.com/PurpleBooth)
+[**Kowshik Sundararajan**](https://github.com/kowshik-sundararajan)
 
 ## License
 
