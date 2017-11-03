@@ -32,7 +32,8 @@ class MinimumCoinChangeVariation {
     }
 
     /**
-     * Function to find the maximum value that can fit in the knapsack
+     * Function to find the minimum number of coins required
+     * using Dynamic Programming
      *
      * @param N The number of totals
      * @param K The user entered denomination

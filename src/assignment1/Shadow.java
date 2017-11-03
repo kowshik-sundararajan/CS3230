@@ -1,5 +1,4 @@
 package assignment1;
-
 /*
  * The Shadow program implements an application that takes in co-ordinates of
  * blocks and finds out the co-ordinates of the shadow formed by merging the
