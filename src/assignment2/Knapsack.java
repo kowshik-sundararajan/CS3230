@@ -1,3 +1,4 @@
+package assignment2;
 /*
  * The Knapsack class helps to implement the Bounded Knapsack problem.
  *

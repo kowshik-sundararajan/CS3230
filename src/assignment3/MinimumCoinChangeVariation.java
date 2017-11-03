@@ -1,5 +1,6 @@
+package assignment3;
 /*
- * The Birthday Problem program implements a variation of the minimum coin change
+ * The program implements a variation of the minimum coin change
  * problem using Dynamic Programming.
  * The variation is that the user can enter one denomination greater than the largest
  * denomination.

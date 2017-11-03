@@ -1,3 +1,4 @@
+package assignment2;
 /*
  * The Unbounded Knapsack program implements the traditional Knapsack algorithm using Dynamic Programming
  * with unlimited number of each item.

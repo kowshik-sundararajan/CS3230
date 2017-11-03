@@ -1,3 +1,4 @@
+package assignment2;
 /*
  * The Bounded Knapsack program implements the traditional Knapsack algorithm using Dynamic Programming
  * with limited number of each item.
