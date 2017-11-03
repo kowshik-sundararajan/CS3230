@@ -8,7 +8,7 @@ package assignment2;
  * @since   2017 - 10 - 29
  */
 
-import java.util.*;
+import java.util.Scanner;
 
 class BoundedKnapsack {
     public static void main(String[] args) {

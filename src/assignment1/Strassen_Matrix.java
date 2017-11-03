@@ -8,7 +8,8 @@ package assignment1;
  * @version 1.0
  * @since   2017 - 09 - 23
  */
-import java.util.*;
+
+import java.util.Scanner;
 
 public class Strassen_Matrix {
     public static void main(String[] args) {

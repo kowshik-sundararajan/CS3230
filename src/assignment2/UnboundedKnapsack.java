@@ -8,7 +8,7 @@ package assignment2;
  * @since   2017 - 10 - 19
  */
 
-import java.util.*;
+import java.util.Scanner;
 
 class UnboundedKnapsack {
 

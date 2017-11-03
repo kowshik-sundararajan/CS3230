@@ -9,7 +9,8 @@ package assignment1;
  * @since   2017 - 09 - 23
  */
 
-import java.util.*;
+import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Shadow {
     public static void main(String[] args) {
